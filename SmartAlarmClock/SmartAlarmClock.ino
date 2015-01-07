@@ -1,3 +1,7 @@
+
+#include <TFTShield.h>
+
+
 // Smart Alarm Clock 
 // Copyright 2014 Tony DiCola (tony@tonydicola.com)
 // Released under an MIT license (http://opensource.org/licenses/MIT)
@@ -17,17 +21,17 @@
 // Temboo & Google Calendar/GMail configuration.
 
 // Temboo account username:
-#define TEMBOO_ACCOUNT      "YOUR TEMBOO ACCOUNT NAME"
+#define TEMBOO_ACCOUNT      "benlagrone"
 // Temboo account app name:
-#define TEMBOO_APP          "YOUR TEMBOO APPLICATION NAME"
+#define TEMBOO_APP          "ArduinoCal"
 // Temboo account app key:
-#define TEMBOO_KEY          "YOUR TEMBOO APPLICATION KEY"
+#define TEMBOO_KEY          "2b8e4aac1c634f2da20379335365ba0c"
 // Temboo Google calendar credential name:
-#define CALENDAR_CREDENTIALS  "GoogleCalendar"
+#define CALENDAR_CREDENTIALS  "YunCalendar"
 // Google calendar ID:
-#define CALENDAR_ID         "YOUR GMAIL ADDRESS"
+#define CALENDAR_ID         "benjaminlagrone@gmail.com"
 // Temboo Gmail credential name:
-#define GMAIL_CREDENTIALS    "GoogleMail"
+#define GMAIL_CREDENTIALS    "YunGmail"
 // Mail subject keyword to trigger alarm:
 #define GMAIL_ALARM_KEYWORD  "WAKE UP"
 
